@@ -1,0 +1,22 @@
+{
+  "name": "imagedataremover",
+  "version": "1.0.0",
+  "description": "Remove metadata from images",
+  "license": "ISC",
+  "author": "Alex",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "shx rm -rf ./dist/ && tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "@types/prompt-sync": "^4.2.3",
+    "shx": "^0.4.0",
+    "typescript": "^5.9.2"
+  }
+}
